@@ -16,8 +16,8 @@
   import Admin from "./pages/Admin.svelte";
   import Reviews from "./pages/Reviews.svelte";
 
-  //setContext("Woodlands", new Woodlands("https://mica-typhoon-horn.glitch.me"));
-  setContext("Woodlands", new Woodlands("http://localhost:4000"));
+  setContext("Woodlands", new Woodlands("https://mica-typhoon-horn.glitch.me"));
+  //setContext("Woodlands", new Woodlands("http://localhost:4000"));
   let routes = {
     "/": Main,
     "/login": Login,
